@@ -1,0 +1,609 @@
+{
+ "summary": {
+  "model": "qwen2.5vl:7b",
+  "seconds_to_label": 93.3,
+  "windows": 55,
+  "points": 146,
+  "max_points": 165,
+  "perfect_windows": 44,
+  "score_counts": {
+   "3": 44,
+   "2": 4,
+   "1": 6,
+   "0": 1
+  },
+  "qc_events_caught": 0,
+  "qc_windows_in_key": 5,
+  "false_alarms": 0,
+  "failure_modes": [
+   [
+    "missed a camera/view problem",
+    5
+   ],
+   [
+    "action: said idle, was put_down glass",
+    2
+   ],
+   [
+    "action: said idle, was rinse plate",
+    1
+   ],
+   [
+    "action: said pick_up, was camera_off none / idle none",
+    1
+   ],
+   [
+    "action: said rinse, was apply_soap sponge / scrub glass",
+    1
+   ],
+   [
+    "object: said bowl, was scrub glass",
+    1
+   ],
+   [
+    "action: said rinse, was scrub glass",
+    1
+   ],
+   [
+    "action: said pick_up, was scrub glass",
+    1
+   ],
+   [
+    "action: said apply_soap, was rinse glass / scrub glass",
+    1
+   ]
+  ]
+ },
+ "rows": [
+  {
+   "start": 0,
+   "end": 4,
+   "score": 3,
+   "model": "rinse bowl",
+   "key": "rinse bowl",
+   "label": "Rinsing a bowl under running water",
+   "qc_flagged": false,
+   "qc_key": false
+  },
+  {
+   "start": 4,
+   "end": 8,
+   "score": 3,
+   "model": "rinse bowl",
+   "key": "rinse bowl",
+   "label": "Rinsing the bowl under running water.",
+   "qc_flagged": false,
+   "qc_key": false
+  },
+  {
+   "start": 8,
+   "end": 12,
+   "score": 3,
+   "model": "rinse bowl",
+   "key": "rinse bowl",
+   "label": "Rinsing the bowl under running water",
+   "qc_flagged": false,
+   "qc_key": false
+  },
+  {
+   "start": 12,
+   "end": 16,
+   "score": 3,
+   "model": "rinse bowl",
+   "key": "rinse bowl",
+   "label": "Rinsing the bowl under running water.",
+   "qc_flagged": false,
+   "qc_key": false
+  },
+  {
+   "start": 16,
+   "end": 20,
+   "score": 3,
+   "model": "rinse bowl",
+   "key": "idle none / rinse bowl",
+   "label": "Rinsing a bowl under running water.",
+   "qc_flagged": false,
+   "qc_key": false
+  },
+  {
+   "start": 20,
+   "end": 24,
+   "score": 3,
+   "model": "idle none",
+   "key": "idle none",
+   "label": "No hands are visible.",
+   "qc_flagged": false,
+   "qc_key": false
+  },
+  {
+   "start": 24,
+   "end": 28,
+   "score": 3,
+   "model": "idle none",
+   "key": "idle none",
+   "label": "No hands are visible.",
+   "qc_flagged": false,
+   "qc_key": false
+  },
+  {
+   "start": 28,
+   "end": 32,
+   "score": 3,
+   "model": "idle none",
+   "key": "idle none",
+   "label": "No dish is being handled.",
+   "qc_flagged": false,
+   "qc_key": false
+  },
+  {
+   "start": 32,
+   "end": 36,
+   "score": 3,
+   "model": "idle none",
+   "key": "idle none",
+   "label": "The person is not handling any dishes.",
+   "qc_flagged": false,
+   "qc_key": false
+  },
+  {
+   "start": 36,
+   "end": 40,
+   "score": 3,
+   "model": "rinse plate",
+   "key": "pick_up plate / rinse plate",
+   "label": "Rinsing the plate under running water.",
+   "qc_flagged": false,
+   "qc_key": false
+  },
+  {
+   "start": 40,
+   "end": 44,
+   "score": 3,
+   "model": "rinse plate",
+   "key": "rinse plate",
+   "label": "Rinsing the plate under running water.",
+   "qc_flagged": false,
+   "qc_key": false
+  },
+  {
+   "start": 44,
+   "end": 48,
+   "score": 3,
+   "model": "rinse plate",
+   "key": "rinse plate",
+   "label": "Rinsing the plate under running water.",
+   "qc_flagged": false,
+   "qc_key": false
+  },
+  {
+   "start": 48,
+   "end": 52,
+   "score": 3,
+   "model": "rinse plate",
+   "key": "rinse plate",
+   "label": "Rinsing the plate under running water.",
+   "qc_flagged": false,
+   "qc_key": false
+  },
+  {
+   "start": 52,
+   "end": 56,
+   "score": 3,
+   "model": "rinse plate",
+   "key": "rinse plate",
+   "label": "Rinsing the plate under running water.",
+   "qc_flagged": false,
+   "qc_key": false
+  },
+  {
+   "start": 56,
+   "end": 60,
+   "score": 3,
+   "model": "rinse plate",
+   "key": "rinse plate",
+   "label": "Rinsing the plate under running water",
+   "qc_flagged": false,
+   "qc_key": false
+  },
+  {
+   "start": 60,
+   "end": 64,
+   "score": 3,
+   "model": "rinse plate",
+   "key": "rinse plate",
+   "label": "Rinsing the plate under running water.",
+   "qc_flagged": false,
+   "qc_key": false
+  },
+  {
+   "start": 64,
+   "end": 68,
+   "score": 3,
+   "model": "rinse plate",
+   "key": "rinse plate",
+   "label": "Rinsing the plate under running water.",
+   "qc_flagged": false,
+   "qc_key": false
+  },
+  {
+   "start": 68,
+   "end": 72,
+   "score": 3,
+   "model": "rinse plate",
+   "key": "rinse plate",
+   "label": "Rinsing the plate under running water.",
+   "qc_flagged": false,
+   "qc_key": false
+  },
+  {
+   "start": 72,
+   "end": 76,
+   "score": 3,
+   "model": "rinse plate",
+   "key": "rinse plate",
+   "label": "Rinsing the plate under running water.",
+   "qc_flagged": false,
+   "qc_key": false
+  },
+  {
+   "start": 76,
+   "end": 80,
+   "score": 3,
+   "model": "rinse plate",
+   "key": "rinse plate",
+   "label": "Rinsing the plate under running water.",
+   "qc_flagged": false,
+   "qc_key": false
+  },
+  {
+   "start": 80,
+   "end": 84,
+   "score": 3,
+   "model": "rinse plate",
+   "key": "rinse plate",
+   "label": "Rinsing the plate under running water.",
+   "qc_flagged": false,
+   "qc_key": false
+  },
+  {
+   "start": 84,
+   "end": 88,
+   "score": 3,
+   "model": "rinse plate",
+   "key": "rinse plate",
+   "label": "Rinsing the plate under running water.",
+   "qc_flagged": false,
+   "qc_key": false
+  },
+  {
+   "start": 88,
+   "end": 92,
+   "score": 3,
+   "model": "rinse plate",
+   "key": "rinse plate",
+   "label": "Rinsing the plate under running water.",
+   "qc_flagged": false,
+   "qc_key": false
+  },
+  {
+   "start": 92,
+   "end": 96,
+   "score": 1,
+   "model": "idle none",
+   "key": "rinse plate",
+   "label": "The person is not handling any dishes.",
+   "qc_flagged": false,
+   "qc_key": false
+  },
+  {
+   "start": 96,
+   "end": 100,
+   "score": 3,
+   "model": "rinse plate",
+   "key": "rinse plate",
+   "label": "Rinsing the plate under running water.",
+   "qc_flagged": false,
+   "qc_key": false
+  },
+  {
+   "start": 100,
+   "end": 104,
+   "score": 3,
+   "model": "rinse plate",
+   "key": "rinse plate",
+   "label": "Rinsing the plate under running water",
+   "qc_flagged": false,
+   "qc_key": false
+  },
+  {
+   "start": 104,
+   "end": 108,
+   "score": 3,
+   "model": "idle none",
+   "key": "idle none",
+   "label": "The person is not handling any dishes.",
+   "qc_flagged": false,
+   "qc_key": false
+  },
+  {
+   "start": 108,
+   "end": 112,
+   "score": 3,
+   "model": "idle none",
+   "key": "idle none",
+   "label": "No hands are visible.",
+   "qc_flagged": false,
+   "qc_key": false
+  },
+  {
+   "start": 112,
+   "end": 116,
+   "score": 3,
+   "model": "idle none",
+   "key": "idle none",
+   "label": "No dish is being handled.",
+   "qc_flagged": false,
+   "qc_key": false
+  },
+  {
+   "start": 116,
+   "end": 120,
+   "score": 2,
+   "model": "rinse plate",
+   "key": "camera_off none / rinse plate",
+   "label": "Rinsing a plate under running water.",
+   "qc_flagged": false,
+   "qc_key": true
+  },
+  {
+   "start": 120,
+   "end": 124,
+   "score": 3,
+   "model": "rinse plate",
+   "key": "rinse plate",
+   "label": "Rinsing the plate under running water.",
+   "qc_flagged": false,
+   "qc_key": false
+  },
+  {
+   "start": 124,
+   "end": 128,
+   "score": 3,
+   "model": "rinse plate",
+   "key": "rinse plate",
+   "label": "Rinsing the plate under running water.",
+   "qc_flagged": false,
+   "qc_key": false
+  },
+  {
+   "start": 128,
+   "end": 132,
+   "score": 3,
+   "model": "rinse utensil",
+   "key": "rinse plate",
+   "label": "Rinsing the spoon under running water.",
+   "qc_flagged": false,
+   "qc_key": false
+  },
+  {
+   "start": 132,
+   "end": 136,
+   "score": 3,
+   "model": "idle none",
+   "key": "idle none / rinse plate",
+   "label": "The person is not handling any dishes.",
+   "qc_flagged": false,
+   "qc_key": false
+  },
+  {
+   "start": 136,
+   "end": 140,
+   "score": 0,
+   "model": "pick_up glass",
+   "key": "camera_off none / idle none",
+   "label": "The person picks up a glass from the sink.",
+   "qc_flagged": false,
+   "qc_key": true
+  },
+  {
+   "start": 140,
+   "end": 144,
+   "score": 2,
+   "model": "apply_soap sponge",
+   "key": "apply_soap sponge / camera_off none",
+   "label": "Pouring soap onto the sponge.",
+   "qc_flagged": false,
+   "qc_key": true
+  },
+  {
+   "start": 144,
+   "end": 148,
+   "score": 2,
+   "model": "rinse sponge",
+   "key": "apply_soap sponge / scrub glass",
+   "label": "Rinsing the sponge under running water",
+   "qc_flagged": false,
+   "qc_key": false
+  },
+  {
+   "start": 148,
+   "end": 152,
+   "score": 3,
+   "model": "scrub glass",
+   "key": "scrub glass",
+   "label": "Wiping the glass with a sponge",
+   "qc_flagged": false,
+   "qc_key": false
+  },
+  {
+   "start": 152,
+   "end": 156,
+   "score": 3,
+   "model": "scrub glass",
+   "key": "scrub glass",
+   "label": "Washing a glass with a sponge",
+   "qc_flagged": false,
+   "qc_key": false
+  },
+  {
+   "start": 156,
+   "end": 160,
+   "score": 3,
+   "model": "scrub glass",
+   "key": "scrub glass",
+   "label": "Wiping the glass with a sponge",
+   "qc_flagged": false,
+   "qc_key": false
+  },
+  {
+   "start": 160,
+   "end": 164,
+   "score": 3,
+   "model": "scrub glass",
+   "key": "scrub glass",
+   "label": "Washing a glass with a sponge",
+   "qc_flagged": false,
+   "qc_key": false
+  },
+  {
+   "start": 164,
+   "end": 168,
+   "score": 3,
+   "model": "scrub glass",
+   "key": "scrub glass",
+   "label": "Washing a glass with a sponge",
+   "qc_flagged": false,
+   "qc_key": false
+  },
+  {
+   "start": 168,
+   "end": 172,
+   "score": 1,
+   "model": "scrub bowl",
+   "key": "scrub glass",
+   "label": "Washing a bowl with a sponge",
+   "qc_flagged": false,
+   "qc_key": true
+  },
+  {
+   "start": 172,
+   "end": 176,
+   "score": 1,
+   "model": "rinse glass",
+   "key": "scrub glass",
+   "label": "Rinsing the glass under running water.",
+   "qc_flagged": false,
+   "qc_key": true
+  },
+  {
+   "start": 176,
+   "end": 180,
+   "score": 3,
+   "model": "scrub glass",
+   "key": "scrub glass",
+   "label": "Washing the glass with a sponge",
+   "qc_flagged": false,
+   "qc_key": false
+  },
+  {
+   "start": 180,
+   "end": 184,
+   "score": 2,
+   "model": "pick_up glass",
+   "key": "scrub glass",
+   "label": "The person picks up a glass from the sink.",
+   "qc_flagged": false,
+   "qc_key": false
+  },
+  {
+   "start": 184,
+   "end": 188,
+   "score": 1,
+   "model": "apply_soap sponge",
+   "key": "rinse glass / scrub glass",
+   "label": "The person applies soap to the sponge.",
+   "qc_flagged": false,
+   "qc_key": false
+  },
+  {
+   "start": 188,
+   "end": 192,
+   "score": 3,
+   "model": "rinse glass",
+   "key": "rinse glass",
+   "label": "Rinsing the glass under running water.",
+   "qc_flagged": false,
+   "qc_key": false
+  },
+  {
+   "start": 192,
+   "end": 196,
+   "score": 3,
+   "model": "rinse glass",
+   "key": "rinse glass",
+   "label": "Rinsing the glass under running water.",
+   "qc_flagged": false,
+   "qc_key": false
+  },
+  {
+   "start": 196,
+   "end": 200,
+   "score": 3,
+   "model": "rinse glass",
+   "key": "rinse glass",
+   "label": "Rinsing the glass under running water.",
+   "qc_flagged": false,
+   "qc_key": false
+  },
+  {
+   "start": 200,
+   "end": 204,
+   "score": 3,
+   "model": "rinse glass",
+   "key": "rinse glass",
+   "label": "Rinsing the glass under running water.",
+   "qc_flagged": false,
+   "qc_key": false
+  },
+  {
+   "start": 204,
+   "end": 208,
+   "score": 3,
+   "model": "rinse glass",
+   "key": "rinse glass",
+   "label": "Rinsing the glass under running water.",
+   "qc_flagged": false,
+   "qc_key": false
+  },
+  {
+   "start": 208,
+   "end": 212,
+   "score": 3,
+   "model": "rinse glass",
+   "key": "rinse glass",
+   "label": "Rinsing a glass under running water.",
+   "qc_flagged": false,
+   "qc_key": false
+  },
+  {
+   "start": 212,
+   "end": 216,
+   "score": 1,
+   "model": "idle none",
+   "key": "put_down glass",
+   "label": "left hand rests on sink",
+   "qc_flagged": false,
+   "qc_key": false
+  },
+  {
+   "start": 216,
+   "end": 217,
+   "score": 1,
+   "model": "idle none",
+   "key": "put_down glass",
+   "label": "The sink is empty and no dishes are being handled.",
+   "qc_flagged": false,
+   "qc_key": false
+  }
+ ]
+}

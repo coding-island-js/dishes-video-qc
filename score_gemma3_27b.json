@@ -1,0 +1,617 @@
+{
+ "summary": {
+  "model": "gemma3:27b",
+  "seconds_to_label": 179.7,
+  "windows": 55,
+  "points": 129,
+  "max_points": 165,
+  "perfect_windows": 32,
+  "score_counts": {
+   "3": 32,
+   "2": 11,
+   "1": 11,
+   "0": 1
+  },
+  "qc_events_caught": 0,
+  "qc_windows_in_key": 5,
+  "false_alarms": 0,
+  "failure_modes": [
+   [
+    "missed a camera/view problem",
+    5
+   ],
+   [
+    "object: said bowl, was scrub glass",
+    5
+   ],
+   [
+    "action: said scrub, was idle none",
+    4
+   ],
+   [
+    "action: said rinse, was idle none",
+    3
+   ],
+   [
+    "object: said bowl, was rinse plate",
+    2
+   ],
+   [
+    "action: said rinse, was put_down glass",
+    2
+   ],
+   [
+    "action: said scrub, was rinse bowl",
+    1
+   ],
+   [
+    "action: said scrub, was rinse plate",
+    1
+   ],
+   [
+    "object: said bowl, was camera_off none / rinse plate",
+    1
+   ],
+   [
+    "action: said rinse, was camera_off none / idle none",
+    1
+   ],
+   [
+    "action: said rinse, was scrub glass",
+    1
+   ]
+  ]
+ },
+ "rows": [
+  {
+   "start": 0,
+   "end": 4,
+   "score": 3,
+   "model": "rinse bowl",
+   "key": "rinse bowl",
+   "label": "The left hand is rinsing a white bowl under the faucet.",
+   "qc_flagged": false,
+   "qc_key": false
+  },
+  {
+   "start": 4,
+   "end": 8,
+   "score": 3,
+   "model": "rinse bowl",
+   "key": "rinse bowl",
+   "label": "The right hand is rinsing food residue from a bowl under the faucet.",
+   "qc_flagged": false,
+   "qc_key": false
+  },
+  {
+   "start": 8,
+   "end": 12,
+   "score": 2,
+   "model": "scrub bowl",
+   "key": "rinse bowl",
+   "label": "The left hand is scrubbing the inside of a bowl.",
+   "qc_flagged": false,
+   "qc_key": false
+  },
+  {
+   "start": 12,
+   "end": 16,
+   "score": 3,
+   "model": "rinse bowl",
+   "key": "rinse bowl",
+   "label": "The right hand is rinsing a bowl under the faucet.",
+   "qc_flagged": false,
+   "qc_key": false
+  },
+  {
+   "start": 16,
+   "end": 20,
+   "score": 3,
+   "model": "rinse bowl",
+   "key": "idle none / rinse bowl",
+   "label": "The left hand is rinsing a white bowl under the faucet.",
+   "qc_flagged": false,
+   "qc_key": false
+  },
+  {
+   "start": 20,
+   "end": 24,
+   "score": 1,
+   "model": "scrub plate",
+   "key": "idle none",
+   "label": "The person is scrubbing a dirty plate with a sponge.",
+   "qc_flagged": false,
+   "qc_key": false
+  },
+  {
+   "start": 24,
+   "end": 28,
+   "score": 1,
+   "model": "scrub plate",
+   "key": "idle none",
+   "label": "The person is scrubbing the dirty plate with a sponge.",
+   "qc_flagged": false,
+   "qc_key": false
+  },
+  {
+   "start": 28,
+   "end": 32,
+   "score": 1,
+   "model": "scrub plate",
+   "key": "idle none",
+   "label": "The person is scrubbing a plate with a sponge.",
+   "qc_flagged": false,
+   "qc_key": false
+  },
+  {
+   "start": 32,
+   "end": 36,
+   "score": 1,
+   "model": "scrub plate",
+   "key": "idle none",
+   "label": "The person is scrubbing a plate with a sponge.",
+   "qc_flagged": false,
+   "qc_key": false
+  },
+  {
+   "start": 36,
+   "end": 40,
+   "score": 3,
+   "model": "rinse plate",
+   "key": "pick_up plate / rinse plate",
+   "label": "The right hand is rinsing a plate under the faucet.",
+   "qc_flagged": false,
+   "qc_key": false
+  },
+  {
+   "start": 40,
+   "end": 44,
+   "score": 3,
+   "model": "rinse plate",
+   "key": "rinse plate",
+   "label": "The person is rinsing a plate under the faucet.",
+   "qc_flagged": false,
+   "qc_key": false
+  },
+  {
+   "start": 44,
+   "end": 48,
+   "score": 3,
+   "model": "rinse plate",
+   "key": "rinse plate",
+   "label": "The person is rinsing a plate under the faucet.",
+   "qc_flagged": false,
+   "qc_key": false
+  },
+  {
+   "start": 48,
+   "end": 52,
+   "score": 3,
+   "model": "rinse plate",
+   "key": "rinse plate",
+   "label": "The person is rinsing a plate under the faucet.",
+   "qc_flagged": false,
+   "qc_key": false
+  },
+  {
+   "start": 52,
+   "end": 56,
+   "score": 2,
+   "model": "rinse bowl",
+   "key": "rinse plate",
+   "label": "The person is rinsing a white bowl under the faucet.",
+   "qc_flagged": false,
+   "qc_key": false
+  },
+  {
+   "start": 56,
+   "end": 60,
+   "score": 3,
+   "model": "rinse plate",
+   "key": "rinse plate",
+   "label": "The person is rinsing a plate under the faucet.",
+   "qc_flagged": false,
+   "qc_key": false
+  },
+  {
+   "start": 60,
+   "end": 64,
+   "score": 3,
+   "model": "rinse plate",
+   "key": "rinse plate",
+   "label": "The person is rinsing a plate under the faucet.",
+   "qc_flagged": false,
+   "qc_key": false
+  },
+  {
+   "start": 64,
+   "end": 68,
+   "score": 2,
+   "model": "rinse bowl",
+   "key": "rinse plate",
+   "label": "The person is rinsing a white bowl under the faucet.",
+   "qc_flagged": false,
+   "qc_key": false
+  },
+  {
+   "start": 68,
+   "end": 72,
+   "score": 1,
+   "model": "scrub bowl",
+   "key": "rinse plate",
+   "label": "The person is scrubbing food residue off of a bowl.",
+   "qc_flagged": false,
+   "qc_key": false
+  },
+  {
+   "start": 72,
+   "end": 76,
+   "score": 3,
+   "model": "rinse plate",
+   "key": "rinse plate",
+   "label": "The person is rinsing a stack of plates under the faucet.",
+   "qc_flagged": false,
+   "qc_key": false
+  },
+  {
+   "start": 76,
+   "end": 80,
+   "score": 3,
+   "model": "rinse plate",
+   "key": "rinse plate",
+   "label": "The person is rinsing a stack of plates under the running water.",
+   "qc_flagged": false,
+   "qc_key": false
+  },
+  {
+   "start": 80,
+   "end": 84,
+   "score": 3,
+   "model": "rinse plate",
+   "key": "rinse plate",
+   "label": "The person is rinsing a plate under the running water.",
+   "qc_flagged": false,
+   "qc_key": false
+  },
+  {
+   "start": 84,
+   "end": 88,
+   "score": 3,
+   "model": "rinse plate",
+   "key": "rinse plate",
+   "label": "The person is rinsing a plate under the running water.",
+   "qc_flagged": false,
+   "qc_key": false
+  },
+  {
+   "start": 88,
+   "end": 92,
+   "score": 3,
+   "model": "rinse plate",
+   "key": "rinse plate",
+   "label": "The person is rinsing plates in the sink.",
+   "qc_flagged": false,
+   "qc_key": false
+  },
+  {
+   "start": 92,
+   "end": 96,
+   "score": 3,
+   "model": "rinse plate",
+   "key": "rinse plate",
+   "label": "The left hand is rinsing a plate under the faucet.",
+   "qc_flagged": false,
+   "qc_key": false
+  },
+  {
+   "start": 96,
+   "end": 100,
+   "score": 3,
+   "model": "rinse plate",
+   "key": "rinse plate",
+   "label": "The person is rinsing a plate under the faucet.",
+   "qc_flagged": false,
+   "qc_key": false
+  },
+  {
+   "start": 100,
+   "end": 104,
+   "score": 3,
+   "model": "rinse plate",
+   "key": "rinse plate",
+   "label": "The person is rinsing plates under the faucet.",
+   "qc_flagged": false,
+   "qc_key": false
+  },
+  {
+   "start": 104,
+   "end": 108,
+   "score": 1,
+   "model": "rinse bowl",
+   "key": "idle none",
+   "label": "Hands are rinsing a white bowl under the faucet.",
+   "qc_flagged": false,
+   "qc_key": false
+  },
+  {
+   "start": 108,
+   "end": 112,
+   "score": 1,
+   "model": "rinse glass",
+   "key": "idle none",
+   "label": "The right hand is rinsing glasses under the faucet.",
+   "qc_flagged": false,
+   "qc_key": false
+  },
+  {
+   "start": 112,
+   "end": 116,
+   "score": 1,
+   "model": "rinse glass",
+   "key": "idle none",
+   "label": "The person is rinsing a glass under the faucet.",
+   "qc_flagged": false,
+   "qc_key": false
+  },
+  {
+   "start": 116,
+   "end": 120,
+   "score": 1,
+   "model": "rinse bowl",
+   "key": "camera_off none / rinse plate",
+   "label": "The person is rinsing a bowl under the faucet.",
+   "qc_flagged": false,
+   "qc_key": true
+  },
+  {
+   "start": 120,
+   "end": 124,
+   "score": 3,
+   "model": "rinse plate",
+   "key": "rinse plate",
+   "label": "The person is rinsing a plate under the faucet.",
+   "qc_flagged": false,
+   "qc_key": false
+  },
+  {
+   "start": 124,
+   "end": 128,
+   "score": 3,
+   "model": "rinse plate",
+   "key": "rinse plate",
+   "label": "The person is rinsing a plate under the faucet.",
+   "qc_flagged": false,
+   "qc_key": false
+  },
+  {
+   "start": 128,
+   "end": 132,
+   "score": 3,
+   "model": "rinse plate",
+   "key": "rinse plate",
+   "label": "The person is rinsing a plate under the faucet.",
+   "qc_flagged": false,
+   "qc_key": false
+  },
+  {
+   "start": 132,
+   "end": 136,
+   "score": 3,
+   "model": "rinse plate",
+   "key": "idle none / rinse plate",
+   "label": "The right hand is rinsing a white plate under the faucet.",
+   "qc_flagged": false,
+   "qc_key": false
+  },
+  {
+   "start": 136,
+   "end": 140,
+   "score": 0,
+   "model": "rinse glass",
+   "key": "camera_off none / idle none",
+   "label": "The person is rinsing glasses under the faucet.",
+   "qc_flagged": false,
+   "qc_key": true
+  },
+  {
+   "start": 140,
+   "end": 144,
+   "score": 2,
+   "model": "apply_soap sponge",
+   "key": "apply_soap sponge / camera_off none",
+   "label": "The person is applying dish soap to a sponge over the sink.",
+   "qc_flagged": false,
+   "qc_key": true
+  },
+  {
+   "start": 144,
+   "end": 148,
+   "score": 3,
+   "model": "scrub glass",
+   "key": "apply_soap sponge / scrub glass",
+   "label": "The left hand is scrubbing a glass with a sponge.",
+   "qc_flagged": false,
+   "qc_key": false
+  },
+  {
+   "start": 148,
+   "end": 152,
+   "score": 2,
+   "model": "scrub bowl",
+   "key": "scrub glass",
+   "label": "The person is scrubbing the inside of a bowl with a sponge.",
+   "qc_flagged": false,
+   "qc_key": false
+  },
+  {
+   "start": 152,
+   "end": 156,
+   "score": 2,
+   "model": "scrub bowl",
+   "key": "scrub glass",
+   "label": "The person is scrubbing the inside of a bowl with a sponge.",
+   "qc_flagged": false,
+   "qc_key": false
+  },
+  {
+   "start": 156,
+   "end": 160,
+   "score": 2,
+   "model": "scrub bowl",
+   "key": "scrub glass",
+   "label": "The person is scrubbing the inside of a bowl with a sponge.",
+   "qc_flagged": false,
+   "qc_key": false
+  },
+  {
+   "start": 160,
+   "end": 164,
+   "score": 2,
+   "model": "scrub bowl",
+   "key": "scrub glass",
+   "label": "The person is scrubbing a bowl with a sponge.",
+   "qc_flagged": false,
+   "qc_key": false
+  },
+  {
+   "start": 164,
+   "end": 168,
+   "score": 3,
+   "model": "scrub glass",
+   "key": "scrub glass",
+   "label": "The left hand is scrubbing a glass with a sponge.",
+   "qc_flagged": false,
+   "qc_key": false
+  },
+  {
+   "start": 168,
+   "end": 172,
+   "score": 1,
+   "model": "scrub bowl",
+   "key": "scrub glass",
+   "label": "The person is scrubbing the inside of a bowl with a sponge.",
+   "qc_flagged": false,
+   "qc_key": true
+  },
+  {
+   "start": 172,
+   "end": 176,
+   "score": 2,
+   "model": "scrub glass",
+   "key": "scrub glass",
+   "label": "The person is scrubbing the inside of a glass with a sponge.",
+   "qc_flagged": false,
+   "qc_key": true
+  },
+  {
+   "start": 176,
+   "end": 180,
+   "score": 2,
+   "model": "rinse glass",
+   "key": "scrub glass",
+   "label": "The right hand is rinsing a glass under the faucet.",
+   "qc_flagged": false,
+   "qc_key": false
+  },
+  {
+   "start": 180,
+   "end": 184,
+   "score": 3,
+   "model": "scrub glass",
+   "key": "scrub glass",
+   "label": "The right hand is scrubbing the inside of a glass.",
+   "qc_flagged": false,
+   "qc_key": false
+  },
+  {
+   "start": 184,
+   "end": 188,
+   "score": 3,
+   "model": "scrub glass",
+   "key": "rinse glass / scrub glass",
+   "label": "The left hand is scrubbing a glass.",
+   "qc_flagged": false,
+   "qc_key": false
+  },
+  {
+   "start": 188,
+   "end": 192,
+   "score": 3,
+   "model": "rinse glass",
+   "key": "rinse glass",
+   "label": "The person is rinsing a glass under the faucet.",
+   "qc_flagged": false,
+   "qc_key": false
+  },
+  {
+   "start": 192,
+   "end": 196,
+   "score": 3,
+   "model": "rinse glass",
+   "key": "rinse glass",
+   "label": "The person is rinsing glasses under the faucet.",
+   "qc_flagged": false,
+   "qc_key": false
+  },
+  {
+   "start": 196,
+   "end": 200,
+   "score": 3,
+   "model": "rinse glass",
+   "key": "rinse glass",
+   "label": "The person is rinsing a glass under the faucet.",
+   "qc_flagged": false,
+   "qc_key": false
+  },
+  {
+   "start": 200,
+   "end": 204,
+   "score": 3,
+   "model": "rinse glass",
+   "key": "rinse glass",
+   "label": "The person is rinsing a glass under the faucet.",
+   "qc_flagged": false,
+   "qc_key": false
+  },
+  {
+   "start": 204,
+   "end": 208,
+   "score": 3,
+   "model": "rinse glass",
+   "key": "rinse glass",
+   "label": "The person is rinsing a glass under the faucet.",
+   "qc_flagged": false,
+   "qc_key": false
+  },
+  {
+   "start": 208,
+   "end": 212,
+   "score": 3,
+   "model": "rinse glass",
+   "key": "rinse glass",
+   "label": "The person is rinsing a glass under the faucet.",
+   "qc_flagged": false,
+   "qc_key": false
+  },
+  {
+   "start": 212,
+   "end": 216,
+   "score": 2,
+   "model": "rinse glass",
+   "key": "put_down glass",
+   "label": "The person is rinsing glasses under the faucet.",
+   "qc_flagged": false,
+   "qc_key": false
+  },
+  {
+   "start": 216,
+   "end": 217,
+   "score": 1,
+   "model": "rinse bowl",
+   "key": "put_down glass",
+   "label": "Hands are rinsing a bowl under the faucet.",
+   "qc_flagged": false,
+   "qc_key": false
+  }
+ ]
+}

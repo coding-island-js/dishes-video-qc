@@ -1,0 +1,722 @@
+{
+ "model": "qwen2.5vl:7b",
+ "window_s": 4,
+ "seconds": 93.3,
+ "windows": [
+  {
+   "start": 0,
+   "end": 4,
+   "action": "rinse",
+   "object": "bowl",
+   "hands": "left",
+   "label": "Rinsing a bowl under running water",
+   "qc": {
+    "sink_in_view": true,
+    "view_blocked": false,
+    "blurry": false
+   }
+  },
+  {
+   "start": 4,
+   "end": 8,
+   "action": "rinse",
+   "object": "bowl",
+   "hands": "left",
+   "label": "Rinsing the bowl under running water.",
+   "qc": {
+    "sink_in_view": true,
+    "view_blocked": false,
+    "blurry": false
+   }
+  },
+  {
+   "start": 8,
+   "end": 12,
+   "action": "rinse",
+   "object": "bowl",
+   "hands": "both",
+   "label": "Rinsing the bowl under running water",
+   "qc": {
+    "sink_in_view": true,
+    "view_blocked": false,
+    "blurry": false
+   }
+  },
+  {
+   "start": 12,
+   "end": 16,
+   "action": "rinse",
+   "object": "bowl",
+   "hands": "left",
+   "label": "Rinsing the bowl under running water.",
+   "qc": {
+    "sink_in_view": true,
+    "view_blocked": false,
+    "blurry": false
+   }
+  },
+  {
+   "start": 16,
+   "end": 20,
+   "action": "rinse",
+   "object": "bowl",
+   "hands": "left",
+   "label": "Rinsing a bowl under running water.",
+   "qc": {
+    "sink_in_view": true,
+    "view_blocked": false,
+    "blurry": false
+   }
+  },
+  {
+   "start": 20,
+   "end": 24,
+   "action": "idle",
+   "object": "none",
+   "hands": "none",
+   "label": "No hands are visible.",
+   "qc": {
+    "sink_in_view": true,
+    "view_blocked": false,
+    "blurry": false
+   }
+  },
+  {
+   "start": 24,
+   "end": 28,
+   "action": "idle",
+   "object": "none",
+   "hands": "none",
+   "label": "No hands are visible.",
+   "qc": {
+    "sink_in_view": true,
+    "view_blocked": false,
+    "blurry": false
+   }
+  },
+  {
+   "start": 28,
+   "end": 32,
+   "action": "idle",
+   "object": "none",
+   "hands": "none",
+   "label": "No dish is being handled.",
+   "qc": {
+    "sink_in_view": true,
+    "view_blocked": false,
+    "blurry": false
+   }
+  },
+  {
+   "start": 32,
+   "end": 36,
+   "action": "idle",
+   "object": "none",
+   "hands": "none",
+   "label": "The person is not handling any dishes.",
+   "qc": {
+    "sink_in_view": true,
+    "view_blocked": false,
+    "blurry": false
+   }
+  },
+  {
+   "start": 36,
+   "end": 40,
+   "action": "rinse",
+   "object": "plate",
+   "hands": "left",
+   "label": "Rinsing the plate under running water.",
+   "qc": {
+    "sink_in_view": true,
+    "view_blocked": false,
+    "blurry": false
+   }
+  },
+  {
+   "start": 40,
+   "end": 44,
+   "action": "rinse",
+   "object": "plate",
+   "hands": "left",
+   "label": "Rinsing the plate under running water.",
+   "qc": {
+    "sink_in_view": true,
+    "view_blocked": false,
+    "blurry": false
+   }
+  },
+  {
+   "start": 44,
+   "end": 48,
+   "action": "rinse",
+   "object": "plate",
+   "hands": "left",
+   "label": "Rinsing the plate under running water.",
+   "qc": {
+    "sink_in_view": true,
+    "view_blocked": false,
+    "blurry": false
+   }
+  },
+  {
+   "start": 48,
+   "end": 52,
+   "action": "rinse",
+   "object": "plate",
+   "hands": "left",
+   "label": "Rinsing the plate under running water.",
+   "qc": {
+    "sink_in_view": true,
+    "view_blocked": false,
+    "blurry": false
+   }
+  },
+  {
+   "start": 52,
+   "end": 56,
+   "action": "rinse",
+   "object": "plate",
+   "hands": "left",
+   "label": "Rinsing the plate under running water.",
+   "qc": {
+    "sink_in_view": true,
+    "view_blocked": false,
+    "blurry": false
+   }
+  },
+  {
+   "start": 56,
+   "end": 60,
+   "action": "rinse",
+   "object": "plate",
+   "hands": "both",
+   "label": "Rinsing the plate under running water",
+   "qc": {
+    "sink_in_view": true,
+    "view_blocked": false,
+    "blurry": false
+   }
+  },
+  {
+   "start": 60,
+   "end": 64,
+   "action": "rinse",
+   "object": "plate",
+   "hands": "both",
+   "label": "Rinsing the plate under running water.",
+   "qc": {
+    "sink_in_view": true,
+    "view_blocked": false,
+    "blurry": false
+   }
+  },
+  {
+   "start": 64,
+   "end": 68,
+   "action": "rinse",
+   "object": "plate",
+   "hands": "left",
+   "label": "Rinsing the plate under running water.",
+   "qc": {
+    "sink_in_view": true,
+    "view_blocked": false,
+    "blurry": false
+   }
+  },
+  {
+   "start": 68,
+   "end": 72,
+   "action": "rinse",
+   "object": "plate",
+   "hands": "both",
+   "label": "Rinsing the plate under running water.",
+   "qc": {
+    "sink_in_view": true,
+    "view_blocked": false,
+    "blurry": false
+   }
+  },
+  {
+   "start": 72,
+   "end": 76,
+   "action": "rinse",
+   "object": "plate",
+   "hands": "both",
+   "label": "Rinsing the plate under running water.",
+   "qc": {
+    "sink_in_view": true,
+    "view_blocked": false,
+    "blurry": false
+   }
+  },
+  {
+   "start": 76,
+   "end": 80,
+   "action": "rinse",
+   "object": "plate",
+   "hands": "left",
+   "label": "Rinsing the plate under running water.",
+   "qc": {
+    "sink_in_view": true,
+    "view_blocked": false,
+    "blurry": false
+   }
+  },
+  {
+   "start": 80,
+   "end": 84,
+   "action": "rinse",
+   "object": "plate",
+   "hands": "both",
+   "label": "Rinsing the plate under running water.",
+   "qc": {
+    "sink_in_view": true,
+    "view_blocked": false,
+    "blurry": false
+   }
+  },
+  {
+   "start": 84,
+   "end": 88,
+   "action": "rinse",
+   "object": "plate",
+   "hands": "both",
+   "label": "Rinsing the plate under running water.",
+   "qc": {
+    "sink_in_view": true,
+    "view_blocked": false,
+    "blurry": false
+   }
+  },
+  {
+   "start": 88,
+   "end": 92,
+   "action": "rinse",
+   "object": "plate",
+   "hands": "left",
+   "label": "Rinsing the plate under running water.",
+   "qc": {
+    "sink_in_view": true,
+    "view_blocked": false,
+    "blurry": false
+   }
+  },
+  {
+   "start": 92,
+   "end": 96,
+   "action": "idle",
+   "object": "none",
+   "hands": "none",
+   "label": "The person is not handling any dishes.",
+   "qc": {
+    "sink_in_view": true,
+    "view_blocked": false,
+    "blurry": false
+   }
+  },
+  {
+   "start": 96,
+   "end": 100,
+   "action": "rinse",
+   "object": "plate",
+   "hands": "both",
+   "label": "Rinsing the plate under running water.",
+   "qc": {
+    "sink_in_view": true,
+    "view_blocked": false,
+    "blurry": false
+   }
+  },
+  {
+   "start": 100,
+   "end": 104,
+   "action": "rinse",
+   "object": "plate",
+   "hands": "both",
+   "label": "Rinsing the plate under running water",
+   "qc": {
+    "sink_in_view": true,
+    "view_blocked": false,
+    "blurry": false
+   }
+  },
+  {
+   "start": 104,
+   "end": 108,
+   "action": "idle",
+   "object": "none",
+   "hands": "none",
+   "label": "The person is not handling any dishes.",
+   "qc": {
+    "sink_in_view": true,
+    "view_blocked": false,
+    "blurry": false
+   }
+  },
+  {
+   "start": 108,
+   "end": 112,
+   "action": "idle",
+   "object": "none",
+   "hands": "none",
+   "label": "No hands are visible.",
+   "qc": {
+    "sink_in_view": true,
+    "view_blocked": false,
+    "blurry": false
+   }
+  },
+  {
+   "start": 112,
+   "end": 116,
+   "action": "idle",
+   "object": "none",
+   "hands": "none",
+   "label": "No dish is being handled.",
+   "qc": {
+    "sink_in_view": true,
+    "view_blocked": false,
+    "blurry": false
+   }
+  },
+  {
+   "start": 116,
+   "end": 120,
+   "action": "rinse",
+   "object": "plate",
+   "hands": "left",
+   "label": "Rinsing a plate under running water.",
+   "qc": {
+    "sink_in_view": true,
+    "view_blocked": false,
+    "blurry": false
+   }
+  },
+  {
+   "start": 120,
+   "end": 124,
+   "action": "rinse",
+   "object": "plate",
+   "hands": "both",
+   "label": "Rinsing the plate under running water.",
+   "qc": {
+    "sink_in_view": true,
+    "view_blocked": false,
+    "blurry": false
+   }
+  },
+  {
+   "start": 124,
+   "end": 128,
+   "action": "rinse",
+   "object": "plate",
+   "hands": "left",
+   "label": "Rinsing the plate under running water.",
+   "qc": {
+    "sink_in_view": true,
+    "view_blocked": false,
+    "blurry": false
+   }
+  },
+  {
+   "start": 128,
+   "end": 132,
+   "action": "rinse",
+   "object": "utensil",
+   "hands": "left",
+   "label": "Rinsing the spoon under running water.",
+   "qc": {
+    "sink_in_view": true,
+    "view_blocked": false,
+    "blurry": false
+   }
+  },
+  {
+   "start": 132,
+   "end": 136,
+   "action": "idle",
+   "object": "none",
+   "hands": "none",
+   "label": "The person is not handling any dishes.",
+   "qc": {
+    "sink_in_view": true,
+    "view_blocked": false,
+    "blurry": false
+   }
+  },
+  {
+   "start": 136,
+   "end": 140,
+   "action": "pick_up",
+   "object": "glass",
+   "hands": "right",
+   "label": "The person picks up a glass from the sink.",
+   "qc": {
+    "sink_in_view": true,
+    "view_blocked": false,
+    "blurry": false
+   }
+  },
+  {
+   "start": 140,
+   "end": 144,
+   "action": "apply_soap",
+   "object": "sponge",
+   "hands": "left",
+   "label": "Pouring soap onto the sponge.",
+   "qc": {
+    "sink_in_view": true,
+    "view_blocked": false,
+    "blurry": false
+   }
+  },
+  {
+   "start": 144,
+   "end": 148,
+   "action": "rinse",
+   "object": "sponge",
+   "hands": "left",
+   "label": "Rinsing the sponge under running water",
+   "qc": {
+    "sink_in_view": true,
+    "view_blocked": false,
+    "blurry": false
+   }
+  },
+  {
+   "start": 148,
+   "end": 152,
+   "action": "scrub",
+   "object": "glass",
+   "hands": "left",
+   "label": "Wiping the glass with a sponge",
+   "qc": {
+    "sink_in_view": true,
+    "view_blocked": false,
+    "blurry": false
+   }
+  },
+  {
+   "start": 152,
+   "end": 156,
+   "action": "scrub",
+   "object": "glass",
+   "hands": "both",
+   "label": "Washing a glass with a sponge",
+   "qc": {
+    "sink_in_view": true,
+    "view_blocked": false,
+    "blurry": false
+   }
+  },
+  {
+   "start": 156,
+   "end": 160,
+   "action": "scrub",
+   "object": "glass",
+   "hands": "left",
+   "label": "Wiping the glass with a sponge",
+   "qc": {
+    "sink_in_view": true,
+    "view_blocked": false,
+    "blurry": false
+   }
+  },
+  {
+   "start": 160,
+   "end": 164,
+   "action": "scrub",
+   "object": "glass",
+   "hands": "left",
+   "label": "Washing a glass with a sponge",
+   "qc": {
+    "sink_in_view": true,
+    "view_blocked": false,
+    "blurry": false
+   }
+  },
+  {
+   "start": 164,
+   "end": 168,
+   "action": "scrub",
+   "object": "glass",
+   "hands": "left",
+   "label": "Washing a glass with a sponge",
+   "qc": {
+    "sink_in_view": true,
+    "view_blocked": false,
+    "blurry": false
+   }
+  },
+  {
+   "start": 168,
+   "end": 172,
+   "action": "scrub",
+   "object": "bowl",
+   "hands": "left",
+   "label": "Washing a bowl with a sponge",
+   "qc": {
+    "sink_in_view": true,
+    "view_blocked": false,
+    "blurry": false
+   }
+  },
+  {
+   "start": 172,
+   "end": 176,
+   "action": "rinse",
+   "object": "glass",
+   "hands": "left",
+   "label": "Rinsing the glass under running water.",
+   "qc": {
+    "sink_in_view": true,
+    "view_blocked": false,
+    "blurry": false
+   }
+  },
+  {
+   "start": 176,
+   "end": 180,
+   "action": "scrub",
+   "object": "glass",
+   "hands": "left",
+   "label": "Washing the glass with a sponge",
+   "qc": {
+    "sink_in_view": true,
+    "view_blocked": false,
+    "blurry": false
+   }
+  },
+  {
+   "start": 180,
+   "end": 184,
+   "action": "pick_up",
+   "object": "glass",
+   "hands": "left",
+   "label": "The person picks up a glass from the sink.",
+   "qc": {
+    "sink_in_view": true,
+    "view_blocked": false,
+    "blurry": false
+   }
+  },
+  {
+   "start": 184,
+   "end": 188,
+   "action": "apply_soap",
+   "object": "sponge",
+   "hands": "right",
+   "label": "The person applies soap to the sponge.",
+   "qc": {
+    "sink_in_view": true,
+    "view_blocked": false,
+    "blurry": false
+   }
+  },
+  {
+   "start": 188,
+   "end": 192,
+   "action": "rinse",
+   "object": "glass",
+   "hands": "left",
+   "label": "Rinsing the glass under running water.",
+   "qc": {
+    "sink_in_view": true,
+    "view_blocked": false,
+    "blurry": false
+   }
+  },
+  {
+   "start": 192,
+   "end": 196,
+   "action": "rinse",
+   "object": "glass",
+   "hands": "left",
+   "label": "Rinsing the glass under running water.",
+   "qc": {
+    "sink_in_view": true,
+    "view_blocked": false,
+    "blurry": false
+   }
+  },
+  {
+   "start": 196,
+   "end": 200,
+   "action": "rinse",
+   "object": "glass",
+   "hands": "left",
+   "label": "Rinsing the glass under running water.",
+   "qc": {
+    "sink_in_view": true,
+    "view_blocked": false,
+    "blurry": false
+   }
+  },
+  {
+   "start": 200,
+   "end": 204,
+   "action": "rinse",
+   "object": "glass",
+   "hands": "left",
+   "label": "Rinsing the glass under running water.",
+   "qc": {
+    "sink_in_view": true,
+    "view_blocked": false,
+    "blurry": false
+   }
+  },
+  {
+   "start": 204,
+   "end": 208,
+   "action": "rinse",
+   "object": "glass",
+   "hands": "left",
+   "label": "Rinsing the glass under running water.",
+   "qc": {
+    "sink_in_view": true,
+    "view_blocked": false,
+    "blurry": false
+   }
+  },
+  {
+   "start": 208,
+   "end": 212,
+   "action": "rinse",
+   "object": "glass",
+   "hands": "left",
+   "label": "Rinsing a glass under running water.",
+   "qc": {
+    "sink_in_view": true,
+    "view_blocked": false,
+    "blurry": false
+   }
+  },
+  {
+   "start": 212,
+   "end": 216,
+   "action": "idle",
+   "object": "none",
+   "hands": "left",
+   "label": "left hand rests on sink",
+   "qc": {
+    "sink_in_view": true,
+    "view_blocked": false,
+    "blurry": false
+   }
+  },
+  {
+   "start": 216,
+   "end": 217,
+   "action": "idle",
+   "object": "none",
+   "hands": "none",
+   "label": "The sink is empty and no dishes are being handled.",
+   "qc": {
+    "sink_in_view": true,
+    "view_blocked": false,
+    "blurry": false
+   }
+  }
+ ]
+}

@@ -1,0 +1,119 @@
+{
+ "_note": "Answer key, checked one frame per second (all 217 seconds) on 10/11. Times in seconds.",
+ "segments": [
+  {
+   "start": 0,
+   "end": 18,
+   "action": "rinse",
+   "object": "bowl",
+   "text": "Rinses two small bowls under the faucet"
+  },
+  {
+   "start": 18,
+   "end": 36,
+   "action": "idle",
+   "object": "none",
+   "text": "Pause, bowls set in the sink"
+  },
+  {
+   "start": 36,
+   "end": 38,
+   "action": "pick_up",
+   "object": "plate",
+   "text": "Picks up a dirty plate from the counter"
+  },
+  {
+   "start": 38,
+   "end": 104,
+   "action": "rinse",
+   "object": "plate",
+   "text": "Rinses large plates under the faucet, one after another"
+  },
+  {
+   "start": 104,
+   "end": 116,
+   "action": "idle",
+   "object": "none",
+   "text": "Pause, empty sink"
+  },
+  {
+   "start": 116,
+   "end": 118,
+   "action": "camera_off",
+   "object": "none",
+   "text": "Camera bumped, it points at the fruit bowl"
+  },
+  {
+   "start": 118,
+   "end": 134,
+   "action": "rinse",
+   "object": "plate",
+   "text": "Rinses a plate with food on it, and the fork",
+   "alt_objects": [
+    "utensil"
+   ]
+  },
+  {
+   "start": 134,
+   "end": 139,
+   "action": "idle",
+   "object": "none",
+   "text": "Pause, empty sink"
+  },
+  {
+   "start": 139,
+   "end": 141,
+   "action": "camera_off",
+   "object": "none",
+   "text": "Camera bumped again, it points at the fruit bowl"
+  },
+  {
+   "start": 141,
+   "end": 145,
+   "action": "apply_soap",
+   "object": "sponge",
+   "text": "Squeezes dish soap onto the sponge"
+  },
+  {
+   "start": 145,
+   "end": 187,
+   "action": "scrub",
+   "object": "glass",
+   "text": "Scrubs glasses with the soapy sponge"
+  },
+  {
+   "start": 187,
+   "end": 212,
+   "action": "rinse",
+   "object": "glass",
+   "text": "Rinses the glasses under the faucet"
+  },
+  {
+   "start": 212,
+   "end": 217,
+   "action": "put_down",
+   "object": "glass",
+   "text": "Sets the last glass down"
+  }
+ ],
+ "qc_events": [
+  {
+   "start": 116,
+   "end": 118,
+   "issue": "camera_moved",
+   "text": "Sink out of view (fruit bowl)"
+  },
+  {
+   "start": 139,
+   "end": 141,
+   "issue": "camera_moved",
+   "text": "Sink out of view (fruit bowl)"
+  },
+  {
+   "start": 170,
+   "end": 173,
+   "issue": "view_blocked",
+   "text": "Head and arm block the view"
+  }
+ ]
+}
